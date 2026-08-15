@@ -1,8 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-       int idade = 20;
-       double altura = 1.75;
-       char letra = 'A';
-       boolean matriculado = true;
+       System.out.print("Meu nome é Wallace Henrique B. Santos, sou do curso de Desenvolvimento de Software Multiplataforma.");
     }
 }
