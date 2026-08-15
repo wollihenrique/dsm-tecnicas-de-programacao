@@ -1,7 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-       System.out.println("Nome: Wallace Henrique B. Santos");
-       System.out.println("Curso: Desenvolvimento de Software Multiplataforma");
-       System.out.println("Turma: 2º semestre");
+       String nome = "Wallace";
+       int idade = 18;
+       double altura = 1.79;
+       float nota = 10.0f;
+       char situacao_matricula = 'A'; //A => Ativa
+
+       System.out.println("Nome: " + nome);
+       System.out.println("Idade: " + idade);
+       System.out.println("Altura: " + altura);
+       System.out.println("Nota: " + nota);
+       System.out.println("Situação da matrícula: " + situacao_matricula);
     }
 }
