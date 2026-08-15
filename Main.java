@@ -1,8 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-       String nome = "Mikael";
-       int idade = 18;
+       int A = 10, B = 20, C = 0;
 
-       System.out.println("Meu nome é " + nome + ", e tenho " + idade + " anos");
+       System.out.println("A = " + A);
+       System.out.println("B = " + B);
+
+       C = A;
+       A = B;
+       B = C;
+
+       System.out.println("A = " + A);
+       System.out.println("B = " + B);
     }
 }
