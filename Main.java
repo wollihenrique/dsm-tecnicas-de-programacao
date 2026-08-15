@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-       int segundos_totais = 45087;
-       int horas = segundos_totais / 3600;
-       int resto = segundos_totais % 3600, minutos = resto / 60, segundos = resto % 60;
+       float Bombril = 3.50f, dinheiro = 10.0f;
 
-
-       System.out.println(segundos_totais + " segundos são " + horas + " horas " + minutos + " minutos " + segundos + " segundos");
+       System.out.println("Produto Bombril: " + Bombril + " R$");
+       System.out.println("Dinheiro pago: " + dinheiro + " R$");
+       System.out.println("Troco: " + (dinheiro - Bombril) + " R$");
     }
 }
