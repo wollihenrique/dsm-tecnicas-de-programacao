@@ -1,9 +1,20 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-       float distancia_perc = 79, quantidade_combust = 4.2f, media = distancia_perc / quantidade_combust;
+       Scanner entrada = new Scanner (System.in);
 
-       System.out.println("Distância Percorrida: " + distancia_perc);
-       System.out.println("Combustível gasto: " + quantidade_combust);
-       System.out.println("O veículo faz aproximadamente " + media + " Km/l");
+       System.out.print("Digite seu nome: ");
+       String nome = entrada.nextLine();
+
+       System.out.print("Digite seua idade: ");
+       String idade = entrada.nextLine();
+
+       System.out.print("Digite seu curso: ");
+       String curso = entrada.nextLine();
+
+       System.out.println("Nome: " + nome);
+       System.out.println("Idade: " + idade);
+       System.out.println("Nome: " + curso);
     }
 }
